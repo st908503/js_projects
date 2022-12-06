@@ -1,0 +1,38 @@
+.container{
+    margin: 150px auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    text-align: center;
+
+}
+
+#btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#btn:hover{
+    color: red;
+}
+
+#message{
+    text-align: center;
+    margin-top: -70px;
+}
